@@ -1,0 +1,76 @@
+
+    <%- include('partials/header'); -%>
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&family=Raleway:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+  body
+  {
+    overflow-x: hidden;
+  }
+    form
+  { 
+    top: 30%;
+    width: 100%;
+    height: 40rem;
+    position: absolute;
+    left: 30%;
+  }
+   label
+   { 
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+   }
+   #subtb
+   {
+     background-color:rgba(255, 255, 255, 0);
+     color: white; 
+     width: 120px;
+     height: 40px;
+     border-radius: 5px;
+     border:2px solid #ffffff;
+     transition:0.3s;
+     transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1); 
+     background-size: 0%;
+    }
+  #subtb:hover
+  { background-color:#161E54;
+    background-size:100%;
+    
+  } 
+   input[type="text"]
+   { border-radius: 3px;
+     width: 40vw;
+     height: 40px;
+     border: 1px solid black;
+   }
+   #ar1:focus
+   { border:0px;
+     box-shadow: 0px 0px 6px blue;
+   }
+   #ar1:focus body
+  {  filter: blur(30px);
+   }
+   #postin
+   { border-radius: 3px;
+     width: 40vw;
+   }
+   #postin:focus
+   { border:0px;
+     box-shadow: 0px 0px 6px blue;
+   }
+   </style>
+  </head>
+<body>
+  <h1 style="color: white;font-family: 'Raleway', sans-serif; font-size: 5rem; font-weight: 400; text-align: center;">Compose</h1>
+    <form action="/compose" method="POST" id="f1" enctype="multipart/form-data">
+      <label for="text" style="font-family: 'Nunito', sans-serif;" >Title</label><br>
+      <input type="text" name="text" id="ar1" autocomplete="off"><br>
+      <label for="textarea" style="font-family: 'Nunito', sans-serif;">Post</label><br>
+      <textarea name="textin" id="postin" cols="30" rows="10"></textarea><br>
+      <input type="file" class="form-control-file" name="uploaded_file"><br>
+      <button type="submit" id="subtb" name="pub-button">Publish</button>
+</form>
+</body>
+</html>

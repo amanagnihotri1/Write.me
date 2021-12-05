@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Questrial&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Mulish&family=Questrial&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=DM+Serif+Display&family=Mulish&family=Questrial&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sancreek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    z-index: 100;
+    background-image:linear-gradient(45deg,white,rgba(201, 185, 185, 0.438));
+    padding-top: 15px;
+    top:0px;
+    position:-webkit-sticky;
+    position: sticky;
+    width: 100vw;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    left: 0rem;
+}
+
+.navbar-nav  li a:hover {
+    color: #000000 !important;
+}
+.footer 
+{
+    position: relative;
+	text-align: center;
+	margin-top: 20rem;
+    bottom: 0px;
+	width: 100%;
+	height: 30vh;
+	background-color:#170055;
+}
+.footer-padding
+{
+    margin-top: 4rem;
+}
+.footer h1
+{  position: absolute;
+    left: 3rem;
+    top: 5rem;
+    font-size: 5rem;
+    font-family: 'Cinzel', serif;
+    color: white;  
+}
+.footer h2
+{   position: absolute;
+    left: 8rem;
+    top: 9rem;
+    font-size: 6rem;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+}
+.footer h3
+{
+   margin: 10rem;
+    position: absolute;
+    right: 10rem;
+    width: 20rem;
+    display: inline;
+    font-size: 2rem;
+    color: #fff;
+    
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+.footer h3:hover
+{
+    color: rgb(173, 158, 158);
+    text-decoration: underline;
+}
+input[type=text]
+{
+    height: 4rem;
+    width: 40rem;
+}
+.footer button
+{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    width: 12rem;
+    height: 4rem;
+    margin-left: 1.4rem;
+}
+.footer button:hover
+{
+    background-color: white;
+    color: blue;
+}
+.footer>p 
+{   
+    position: absolute;
+    margin: 1rem;
+    right: 70rem;
+    bottom: 0.5rem;
+	font-size: 1.3rem;
+  color: #fff;
+}
+form
+{
+    width: 60rem;
+    position: relative;
+    left: 60%;
+    top: 40%;
+    align-items: center;
+}
+#headpart
+{  
+    opacity: 1;
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    left: 0rem;
+    top: 7.6rem;
+align-items: center;  
+text-align: center;  
+}
+.dj
+{
+    font-family: 'Mate SC', serif;
+    font-size: 10rem;
+    color: white;
+    position: absolute;
+text-align: center;
+left: 30%;
+top: 25%;  
+ 
+
+}
+.heading-part
+{ 
+    width: 100%;
+    height: 100%;    
+    object-fit: cover;   
+    background-color: linear-gradient(to right,black,white);
+   text-align: center;
+}
+#article-collection
+{
+    transform: translateY(10%);
+    width: 100%;
+    position: relative;
+    margin-top: 40rem;
+}
+.main1
+{   
+    padding: 3.8rem;
+    width: 75vw;
+    height: 36vh;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    flex-grow: 10rem;
+    box-shadow: 2px 6px 14px 2px rgba(0, 0, 0, 0.575);  
+    text-align: justify;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+body
+{   
+    overflow-x:hidden;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23230046' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%232f0052' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%233b075e' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%2348156a' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.artname1
+{    font-family: 'DM Serif Display', serif;
+    font-size: 65px;
+     color: white;
+    text-align: center;
+   font-weight: 400;
+}
+.particular-post
+{  
+    padding: 40px 40px 40px 40px;
+    background-color: #ffffff;
+    
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+    box-shadow: 0px 2px 10px 3px black;
+}
+.artcont2
+{   font-family: 'Crimson Pro', serif;
+    text-align: justify;
+    font-size: 20px;
+   font-weight: 600;
+   
+}
+.arcont
+{
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.artitle
+{   
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+.conta2
+{   
+    display: block;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+   color: white;
+   font-size: 5rem;
+}
+#home:hover
+{  
+    color:rgb(18, 12, 102);
+}
+#pagemain
+{   display: flex;
+    position: relative;
+    width: 74vw;
+    height: 60vh;
+    background-color: #ffffff;
+    top: 19rem;
+}
+#aboutimg
+{
+    width: 40vw;
+    height: 46vh;
+  position:relative; 
+  top: 10rem;
+}
+#aboutimg>img
+{   
+    
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+#textaddress
+{ position: relative;
+  width: 50%;
+  height: 50%;
+top: 10rem;  
+left: 1.7rem;
+
+}
+#textaddress
+{
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+}
+#contentbox
+{   position: relative;
+    top: 2rem;
+    width: 74.4vw;
+    height: 60vh;
+    background-color: #ffffff;
+}
+#contentbox>img
+{
+    width: 100%;
+    height: 100%;
+    
+}
+#imgcontent
+{   object-fit: contain;
+    width: 40vw;
+    position: absolute;
+    top: 2rem;
+    left: -8rem;
+}
+#textcontact
+{
+    position:relative;
+    top: 8rem;
+    left: 70rem;
+
+}
+#textcontact>h1
+{    
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+}
+.title-container
+{
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    left: -20rem;
+    top: -2rem;
+    opacity: 0.8;
+    object-fit: cover;
+    
+
+}
+.title-container>img
+{
+  width: 100%;
+  height: 100%;
+  
+}

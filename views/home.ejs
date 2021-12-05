@@ -1,0 +1,14 @@
+<%- include('partials/header'); -%>
+<div id="headpart">
+  <img class="heading-part" src="https://images.pond5.com/young-female-handwriting-daily-journal-footage-163251767_iconl.jpeg"></div>
+<p class="dj">Daily Journal</p>
+<div id="article-collection">
+<% for(let i of newpost){%>
+  
+  <div class="main1" data-aos="zoom-out">
+    <h1 class="artitle"><%= i.postname %></h1>
+    <p class="arcont"><%= i.postContent.substring(0,100)+"...." %><a href="/post/<%= i._id%>">Read More</a></p>
+  </div>
+    <%}%>
+</div>
+<%- include('partials/footer'); -%>
